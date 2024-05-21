@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(29,20,18,1);
+    color: white;
+}
+
+#logo{
+    width: 400px;
+    height: 200px;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+}
+
+#top{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#titling{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#photo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#mc{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#musiccontainer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+margin-top: 10px;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(29,20,18,1) 0%, brown 20%, brown 80%, rgba(29,20,18,1) 100%); 
+}
+
+#musiccontainer div{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#list{
+    height: 1000px;
+    width: 20%;
+    margin-right: 10px;
+    overflow: auto;
+    direction: ltr;
+}
+#con2{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    
+}
+#music{
+    width: 100%;
+}
+
+.listed{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(29,20,18,1) 0%, rgba(134,24,24,1) 0%, rgba(145,38,28,1) 82%, rgba(29,20,18,1) 100%);
+    font-weight: 400;
+
+}
+#inlist{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.listed:hover{
+    cursor: pointer;
+}

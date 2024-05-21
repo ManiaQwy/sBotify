@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S🅱️OTIFY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <div id="logo">
+                <img src="sbotify.jpg" alt="">
+                <p>S🅱️OTIFY</p>
+            </div>
+        </div>
+        <div id="con2">
+            <div id="list">
+
+            </div>
+            <div id="music">
+                <div id="pliki">
+                    <input type="file" accept=".mp3">
+                </div>
+                <div id="photo"><img src="OperationDoomsday.png" alt="" height="500px" width="500px"></div>
+                <div id="titling">Doomsday</div>
+                <div id="mc">MF DOOM</div>
+                    <div id="musiccontainer">
+                        <div id="skipbackwards" onclick="skipbackwards()"><img src="skipleft.png" alt="" height="100px" width="100px"></div>
+                        <div id="play" onclick="start()"><img src="play.png" alt="" height="100px" width="100px"></div>
+                        <div id="skip" onclick="skip()"><img src="skipright.png" alt="" height="100px" width="100px" style="rotate: -180deg;"></div>
+                        <div id="repeat" onclick="resetsong()"><img src="rotate.png" alt="" height="100px" width="100px"></div>
+            </div>
+    
+            </div>
+        </div>
+        <script src="script.js" onload="createlist()"></script>
+    
+    
+</body>
+</html>
